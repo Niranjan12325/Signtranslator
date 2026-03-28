@@ -35,36 +35,36 @@ pip install opencv-python mediapipe pyttsx3
 3. How to Run
 python main.py
 4. How It Works
-📷 Webcam captures your hand
-🧠 MediaPipe detects hand landmarks
-👆 Index finger acts as pointer
-🤏 Thumb + index finger = TAP action
-⌨️ Tap on virtual keyboard to type
-🔮 System predicts word using dictionary
-🔊 Press FINISH to speak output
-🧠 Gesture Controls
+- 📷 Webcam captures your hand
+- 🧠 MediaPipe detects hand landmarks
+- 👆 Index finger acts as pointer
+- 🤏 Thumb + index finger = TAP action
+- ⌨️ Tap on virtual keyboard to type
+- 🔮 System predicts word using dictionary
+- 🔊 Press FINISH to speak output
+- 🧠 Gesture Controls
 Gesture	Action
-👆 Pointing Index Finger	Select letters
-🤏 Thumb + Index Close	Tap
-🧹 CLEAR Button	Delete last letter
-✅ FINISH Button	Speak predicted word
-❌ EXIT Button	Close application
+- 👆 Pointing Index Finger	Select letters
+- 🤏 Thumb + Index Close	Tap
+- 🧹 CLEAR Button	Delete last letter
+- ✅ FINISH Button	Speak predicted word
+- ❌ EXIT Button	Close application
 
 ## Output Example
-Typed: HEL
-Prediction: HELLO
-Speech Output:  "Hello"
+- Typed: HEL
+- Prediction: HELLO
+- Speech Output:  "Hello"
 
 ## Future Improvements
-Add full sign language recognition (not just virtual keyboard)
-Improve prediction using NLP models
-Add sentence formation
-Deploy as web app using Django/Flask
-Mobile app version
-
+- Add full sign language recognition (not just virtual keyboard)
+- Improve prediction using NLP models
+- Add sentence formation
+- Deploy as web app using Django/Flask
+- Mobile app version
+ 
 ## Acknowledgements
-Google for MediaPipe
-Open-source computer vision community
+- Google for MediaPipe
+- Open-source computer vision community
 
 ## Author
 Niranjan E
